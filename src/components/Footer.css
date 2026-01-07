@@ -1,0 +1,73 @@
+.site-footer {
+  background: linear-gradient(90deg, #071b4a, #0a2d6f);
+  padding: 18px 10px;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.site-footer .brand {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.site-footer a {
+  color: #3cff00;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+/* ================= RESPONSIVE FOOTER ================= */
+
+/* Tablets & small laptops (≤1024px) */
+@media (max-width: 1024px) {
+  .site-footer {
+    padding: 16px 12px;
+  }
+
+  .site-footer p {
+    font-size: 13.5px;
+  }
+}
+
+/* Mobile & tablets (≤768px) */
+@media (max-width: 768px) {
+  .site-footer {
+    padding: 15px 10px;
+  }
+
+  .site-footer p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .site-footer a {
+    display: inline-block;
+    margin-top: 4px;
+  }
+}
+
+/* Small mobile phones (≤480px) */
+@media (max-width: 480px) {
+  .site-footer {
+    padding: 14px 8px;
+  }
+
+  .site-footer p {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+
+  .site-footer .brand {
+    display: block;
+    margin: 4px 0;
+  }
+}
+

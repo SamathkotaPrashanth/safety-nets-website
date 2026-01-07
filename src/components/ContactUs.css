@@ -1,0 +1,171 @@
+.contact-section {
+  padding: 80px 6%;
+  text-align: center;
+  background: #fff;
+}
+
+.contact-label {
+  letter-spacing: 3px;
+  color: #c9a24d;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contact-heading {
+  font-size: 46px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.contact-subtitle {
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 60px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.contact-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.contact-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.contact-card h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+.contact-icon.whatsapp {
+  color: #25d366;
+}
+
+.contact-icon.email {
+  color: #c9a24d;
+}
+
+.contact-icon.address {
+  color: #e74c3c;
+}
+/* ================= RESPONSIVE STYLES ================= */
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .contact-section {
+    padding: 70px 5%;
+  }
+
+  .contact-heading {
+    font-size: 38px;
+  }
+
+  .contact-subtitle {
+    margin-bottom: 45px;
+  }
+
+  .contact-card {
+    padding: 35px 18px;
+  }
+
+  .contact-icon {
+    font-size: 44px;
+  }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 60px 5%;
+  }
+
+  .contact-heading {
+    font-size: 32px;
+  }
+
+  .contact-subtitle {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .contact-card {
+    padding: 30px 18px;
+  }
+
+  .contact-card h3 {
+    font-size: 20px;
+  }
+
+  .contact-card p {
+    font-size: 15px;
+  }
+
+  .contact-icon {
+    font-size: 40px;
+  }
+}
+
+/* Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 50px 4%;
+  }
+
+  .contact-heading {
+    font-size: 28px;
+  }
+
+  .contact-label {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .contact-icon {
+    font-size: 36px;
+  }
+
+  .contact-card {
+    padding: 26px 16px;
+  }
+
+  .contact-card h3 {
+    font-size: 18px;
+  }
+
+  .contact-card p {
+    font-size: 14px;
+  }
+}
+

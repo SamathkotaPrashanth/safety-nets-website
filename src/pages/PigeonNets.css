@@ -1,0 +1,76 @@
+.pigeon-hero {
+  height: 85vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("/src/assets/bird-net.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.hero-content p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* ================= RESPONSIVE STYLES ================= */
+@media (max-width: 1024px) {
+  .pigeon-hero {
+    height: 75vh;
+    padding: 0 6%;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .pigeon-hero {
+    height: 65vh;
+    padding: 0 5%;
+  }
+
+  .hero-content h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+
+/* mobile phones */
+@media (max-width: 480px) {
+  .pigeon-hero {
+    height: 60vh;
+    padding: 0 4%;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+}

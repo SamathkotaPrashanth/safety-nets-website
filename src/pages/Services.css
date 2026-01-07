@@ -1,0 +1,244 @@
+.services-section {
+  padding: 80px 6%;
+  background: #fff;
+  text-align: center;
+}
+
+.services-label {
+  letter-spacing: 3px;
+  color: #c9a24d;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.services-heading {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.services-subtitle {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #c9a24d;
+  margin-bottom: 60px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.service-card h3 {
+  padding: 20px;
+  font-size: 22px;
+  color: #333;
+}
+.service-card p {
+  padding: 0 20px 25px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+  text-align: center;
+}
+.service-card p {
+  padding: 0 20px 25px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+  text-align: center;
+}
+.call-btn {
+  display: inline-block;
+  margin: 0 0 25px;
+  padding: 10px 22px;
+  background-color: #c9a24d;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.call-btn:hover {
+  background-color: #b18d3f;
+  transform: scale(1.05);
+}
+.service-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.35s ease;
+  position: relative;
+}
+
+.service-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+.service-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.service-card:hover img {
+  transform: scale(1.08);
+}
+
+.service-card h3 {
+  margin: 18px 20px 8px;
+  font-size: 22px;
+  color: #333;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666;
+  padding: 0 20px 15px;
+  line-height: 1.6;
+}
+.call-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 25px;
+  padding: 11px 26px;
+  background: linear-gradient(135deg, #c9a24d, #b18d3f);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.call-btn:hover {
+  transform: scale(1.08);
+  background: linear-gradient(135deg, #b18d3f, #c9a24d);
+}
+/* ================= RESPONSIVE STYLES ================= */
+
+/* Tablets & small laptops (≤1024px) */
+@media (max-width: 1024px) {
+  .services-section {
+    padding: 70px 5%;
+  }
+
+  .services-heading {
+    font-size: 40px;
+  }
+
+  .services-subtitle {
+    margin-bottom: 50px;
+  }
+
+  .service-card img {
+    height: 240px;
+  }
+}
+@media (max-width: 768px) {
+  .services-section {
+    padding: 60px 5%;
+  }
+
+  .services-heading {
+    font-size: 32px;
+  }
+
+  .services-label {
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+
+  .services-subtitle {
+    font-size: 13px;
+    margin-bottom: 40px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .service-card img {
+    height: 220px;
+  }
+
+  .service-card h3 {
+    font-size: 20px;
+  }
+
+  .service-card p {
+    font-size: 14px;
+  }
+
+  .call-btn {
+    padding: 10px 22px;
+    font-size: 13px;
+  }
+}
+
+/*  mobile phones */
+@media (max-width: 480px) {
+  .services-section {
+    padding: 50px 4%;
+  }
+
+  .services-heading {
+    font-size: 26px;
+  }
+
+  .services-subtitle {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+
+  .service-card img {
+    height: 200px;
+  }
+
+  .service-card h3 {
+    font-size: 18px;
+    margin: 16px 16px 6px;
+  }
+
+  .service-card p {
+    font-size: 13px;
+    padding: 0 16px 14px;
+  }
+
+  .call-btn {
+    padding: 9px 20px;
+    font-size: 12px;
+    border-radius: 24px;
+  }
+}
+
+
+
+
