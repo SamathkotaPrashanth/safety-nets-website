@@ -1,16 +1,73 @@
 # React + Vite
+# 🛡️ Safety Nets Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive website built using **React + Vite** for a Safety Nets service business.  
+This website showcases services like balcony safety nets, pigeon nets, children safety nets, industrial nets, and sports nets with a clean UI and mobile-first design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Features
 
-## React Compiler
+- Fully responsive (Mobile, Tablet, Laptop, Desktop)
+- Modern animated navbar
+- Hero image slider
+- Services pages
+- Our Services page
+- Sports Nets page
+- Contact page with clickable phone, email & address
+- Floating call button
+- Footer with copyright
+- Built using latest React + Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React (Vite)
+- **Styling:** CSS (custom, responsive)
+- **Routing:** React Router DOM
+- **Build Tool:** Vite
+- **Version Control:** Git & GitHub
+
+---
+safety-nets-website/
+│
+├── public/
+│ └── vite.svg
+│
+├── src/
+│ ├── assets/ # Images, logos, banners
+│ │
+│ ├── components/ # Reusable components
+│ │ ├── Navbar.jsx
+│ │ ├── Navbar.css
+│ │ ├── Footer.jsx
+│ │ ├── Footer.css
+│ │ ├── Contact.jsx
+│ │ └── ContactUs.css
+│ │
+│ ├── pages/ # Website pages
+│ │ ├── Home.jsx
+│ │ ├── Home.css
+│ │ ├── Services.jsx
+│ │ ├── Services.css
+│ │ ├── OurServices.jsx
+│ │ ├── OurServices.css
+│ │ ├── AllSportsNets.jsx
+│ │ ├── SafetyNets.jsx
+│ │ ├── PigeonNets.jsx
+│ │ └── PigeonNets.css
+│ │
+│ ├── App.jsx
+│ ├── App.css
+│ ├── main.jsx
+│ └── index.css
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+## 📁 Project Structure
+
