@@ -70,4 +70,5 @@ safety-nets-website/
 ├── vite.config.js
 └── README.md
 ## 📁 Project Structure
-
+How to Start
+npm run dev
